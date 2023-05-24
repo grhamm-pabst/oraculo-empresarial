@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Geanzinho",
+        "role": "Calitos",
+        "departament": "DEV",
+        "email": "dias@email.com",
+        "projects": ["EcoStyle"],
+        "knowledgeAreas": ["C#", "JS"]
+    }
+]
