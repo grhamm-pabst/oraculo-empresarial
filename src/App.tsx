@@ -1,12 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState }from 'react';
 import './App.css';
+import {QuestionService} from './service/questionService'
 
 function App() {
+  const [question, setQuestion] = useState<Question[]>([]);
+
+  useEffect(() => {
+    var questions = QuestionService.getQuestions();
+    console.log(questions)
+    setQuestion(questions)
+
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

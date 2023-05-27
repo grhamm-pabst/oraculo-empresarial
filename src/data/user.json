@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Lucas Santos",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "lucas@email.com",
+        "projects": ["EcoStyle"],
+        "knowledgeAreas": ["Java"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Pedro Martins",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "pedro.martins@inovatech.com",
+        "projects": ["VitalAge"],
+        "knowledgeAreas": ["C#"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Beatriz Rodrigues",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "beatriz.rodrigues@inovatech.com",
+        "projects": ["FleetMaster"],
+        "knowledgeAreas": ["JS"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Gabriel Oliveira",
+        "role": "Designer",
+        "departament": "Projetos",
+        "email": "gabriel.oliveira@inovatech.com",
+        "projects": ["EcoStyle"],
+        "knowledgeAreas": ["Design System", "Protótipos de altafidelidade"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Rafael Gonçalves",
+        "role": "Designer",
+        "departament": "Projetos",
+        "email": "rafael.goncalves@inovatech.com",
+        "projects": ["VitalAge"],
+        "knowledgeAreas": ["Testes de usabilidade"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Gustavo Fernandes",
+        "role": "Designer",
+        "departament": "Projetos",
+        "email": "gustavo.fernandes@inovatech.com",
+        "projects": ["FraudShield"],
+        "knowledgeAreas": ["Personas"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Gean Carlos",
+        "role": "Project Manager",
+        "departament": "Projetos",
+        "email": "gean.carlos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "Marcelo Santos",
+        "role": "Project Manager",
+        "departament": "Projetos",
+        "email": "marcelo.santos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "Carla Mendes",
+        "role": "Gerente e Social Media",
+        "departament": "MKT",
+        "email": "carla.mendes@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "André Santos",
+        "role": "Analista de Desenvolvimento de Pessoas",
+        "departament": "RH",
+        "email": "andre.santos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "Felipe Silva",
+        "role": "Gerente Financeiro",
+        "departament": "Financeiro",
+        "email": "felipe.silva@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": ["ferramenta de software", "domínio e hospedagem"]
+    },
+    {
+        "name": "Eduardo Rodrigues",
+        "role": "Coordenador Administrativo",
+        "departament": "ADM",
+        "email": "eduardo.rodrigues@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "Rodrigo Mendes",
+        "role": "Gerente Comercial",
+        "departament": "ADM",
+        "email": "rodrigo.mendes@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "Laura Santos",
+        "role": "Analista Financeiro",
+        "departament": "Financeiro",
+        "email": "laura.santos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": ["cursos e livros", "material"]
+    }
+]
