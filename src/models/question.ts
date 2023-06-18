@@ -8,7 +8,7 @@ export interface Question{
 
 export interface Options{
     id:string;
-    descriprion:string;
+    description:string;
     category: QuestionCategoryEnum;
     alternatives : string[];
 
