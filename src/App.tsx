@@ -1,6 +1,7 @@
 import React, { useEffect, useState }from 'react';
 import './App.css';
 import {QuestionService} from './service/questionService'
+import { Question } from './models/question';
 
 function App() {
   const [question, setQuestion] = useState<Question[]>([]);

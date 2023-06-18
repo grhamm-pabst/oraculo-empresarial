@@ -5,3 +5,5 @@ enum QuestionCategoryEnum {
     DEPARTMENT_LEADER = 'DEPARTMENT_LEADER',
     RESPONSIBILITY = 'RESPONSIBILITY'
   }
+
+export default QuestionCategoryEnum;

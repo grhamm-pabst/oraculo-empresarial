@@ -1,19 +1,20 @@
-import fs from 'fs';
+import QuestionCategoryEnum from '../models/enum/questionCategory';
+import { Question } from '../models/question';
+import User from '../models/user';
+import questionsData from '../data/questions.json';
+import usersData from '../data/user.json';
 
 export class QuestionService{
 
     static getQuestions() : Question[] {
-        var questions : Question[]
-        const jsonData = fs.readFileSync('../data/questions.json', 'utf-8');
-        questions = JSON.parse(jsonData);
-        console.log(questions)
-        return questions
+        var questions : Question[] = [];
+        console.log(questionsData)
+        console.log("teste")
+        return questions;
     }
 
     static getAnwser(category : QuestionCategoryEnum, selectedOption: string) : User[]{
-        var users : User[]
-        const jsonData = fs.readFileSync('../data/users.json', 'utf-8');
-        users = JSON.parse(jsonData);
+        var users : User[] = []
         var result : User[] = [];
 
         switch (category) {
@@ -24,10 +25,10 @@ export class QuestionService{
                 result = users.filter(u => u.knowledgeAreas.includes(selectedOption))
               break;
             case QuestionCategoryEnum.DEPARTMENT:
-                result = users.filter(u => u.department == selectedOption)
+                result = users.filter(u => u.department === selectedOption)
               break;
             case QuestionCategoryEnum.DEPARTMENT_LEADER:
-                result = users.filter(u => u.department == selectedOption && u.leader)
+                result = users.filter(u => u.department === selectedOption && u.leader)
               break;
             case QuestionCategoryEnum.RESPONSIBILITY:
                 result = users.filter(u => u.responsibility.includes(selectedOption))
