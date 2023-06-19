@@ -2,6 +2,7 @@ import React, { useEffect, useState }from 'react';
 import './App.css';
 import {QuestionService} from './service/questionService'
 import { Question } from './models/question';
+import QuestionCategoryEnum from './models/enum/questionCategory';
 
 function App() {
   const [question, setQuestion] = useState<Question[]>([]);
@@ -9,6 +10,8 @@ function App() {
   useEffect(() => {
     var questions = QuestionService.getQuestions();
     console.log(questions)
+    var answer = QuestionService.getAnwser(QuestionCategoryEnum.PROJECT, "VitalAge")
+    console.log(answer)
     setQuestion(questions)
 
   }, []);
