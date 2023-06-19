@@ -1,44 +1,128 @@
 [
-    {
+  {
       "id": "1",
-      "description": "Gostaria de tirar uma dúvida sobre…",
+      "description": "Gostaria de tirar uma dúvida sobre...",
       "options": [
-        {
-          "id": "1",
-          "description": "CRUD Basico em...",
-          "category": "KNOWLEDGE_AREA",
-          "alternatives": ["Java", "C#", "JS"]
-        },
-        {
-          "id": "2",
-          "description": "UI/UX Design a respeito de…",
-          "category": "KNOWLEDGE_AREA",
-          "alternatives": ["Design System", "Testes de usabilidade", "Personas", "Protótipos de alta fidelidade"]
-        }
+          {
+              "id": "1",
+              "description": "CRUD basico em...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Java", "C#", "Javascript"]
+          },
+          {
+              "id": "2",
+              "description": "algoritmo de ordenação em...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Java", "C#", "Javascript"]
+          },
+          {
+              "id": "3",
+              "description": "conexão de um banco de dados com uma API...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Java", "C#", "Javascript"]
+          },
+          {
+              "id": "4",
+              "description": "conexão de uma API com um banco de dados...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["MySQL", "Oracle", "MongoDB"]
+          },
+          {
+              "id": "5",
+              "description": "configuração de ambiente de desenvolvimento...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Java", "C#", "Javascript"]
+          },
+          {
+              "id": "6",
+              "description": "autenticação...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Java", "C#", "Javascript"]
+          },
+          {
+              "id": "7",
+              "description": "arquitetura...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["MVC", "Microsservicos", "SOA"]
+          },
+          {
+              "id": "8",
+              "description": "deploy...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Github", "Heroku", "Vercel"]
+          },
+          {
+              "id": "9",
+              "description": "UI/UX design...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["Design System", "Testes de usabilidade", "Personas", "Prototipos de altafidelidade"]
+          },
+          {
+              "id": "10",
+              "description": "copywriting para...",
+              "category": "KNOWLEDGE_AREA",
+              "alternatives": ["textos publicitários", "textos em redes sociais", "textos de comunicação com o cliente"]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": "2",
-      "description": "Gostaria de saber quem é o responsável…",
+      "description": "Gostaria de saber quem é o responsável...",
       "options": [
-        {
-          "id": "3",
-          "description": "pelo setor de…",
-          "category": "DEPARTMENT_LEADER",
-          "alternatives": ["Projetos", "MKT", "RH", "Financeiro", "ADM", "Comercial"]
-        }
+          {
+              "id": "11",
+              "description": "pelo setor...",
+              "category": "DEPARTMENT_LEADER",
+              "alternatives": ["Projetos", "Marketing", "RH", "Financeiro", "Administrativo", "Comercial"]
+          },
+          {
+              "id": "12",
+              "description": "pelo projeto...",
+              "category": "PROJECT_LEADER",
+              "alternatives": ["EcoStyle", "VitalAge", "FleetMaster", "FraudShield", "RideShareNow"]
+          }
       ]
-    },
-    {
+  },
+  {
       "id": "3",
-      "description": "Gostaria de saber qual o processo para…",
+      "description": "Gostaria de saber quem são os colaboradores...",
       "options": [
-        {
-          "id": "4",
-          "description": "solicitar a compra de…",
-          "category": "RESPONSIBILITY",
-          "alternatives": ["Material", "ferramenta de software", "domínio e hospedagem", "cursos e livros"]
-        }
+          {
+             "id":"13",
+             "descriprion": "do setor...",
+             "category": "DEPARTMENT",
+             "alternatives": ["Projetos", "Marketing", "RH", "Financeiro", "Administrativo", "Comercial"]
+          },
+          {
+              "id":"14",
+              "descriprion": "do projeto...",
+              "category": "PROJECT",
+              "alternatives": ["EcoStyle", "VitalAge", "FleetMaster", "FraudShield", "RideShareNow"]
+           }
       ]
-    }
-  ]
+  },
+  {
+      "id": "4",
+      "description": "Gostaria de saber qual o processo para...",
+      "options": [
+          {
+              "id": "15",
+              "descriprion": "aprovação de...",
+              "category": "RESPONSIBILITY",
+              "options": ["produto", "feature", "codigo", "site da empresa", "post da empresa em redes sociais", "estratégia de marketing"]
+          },
+          {
+              "id": "16",
+              "descriprion": "solicitar compra de...",
+              "category": "RESPONSIBILITY",
+              "options": ["material", "ferramenta de software", "domínio e hospedagem", "cursos e livros"]
+          },
+          {
+              "id": "17",
+              "descriprion": "solicitar uma alteração em...",
+              "category": "RESPONSIBILITY",
+              "options": ["produto", "feature", "codigo", "site da emrpresa", "post da empresa em redes sociais", "estratégia de marketing"]
+          }
+      ] 
+  }
+]

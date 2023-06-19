@@ -3,9 +3,39 @@
         "name": "Lucas Santos",
         "role": "Desenvolvedor",
         "departament": "Projetos",
-        "email": "lucas@email.com",
+        "email": "lucas.santos@inovatech.com",
         "projects": ["EcoStyle"],
         "knowledgeAreas": ["Java"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Lucas Silva",
+        "role": "Representante Comercial",
+        "departament": "Comercial",
+        "email": "lucas.silva@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Ana Silva",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "ana.silva@inovatech.com",
+        "projects": ["EcoStyle"],
+        "knowledgeAreas": ["Java", "C#", "MySQL", "Oracle"],
+        "leader": false,
+        "responsibility": ["feature", "codigo"]
+    },
+    {
+        "name": "Ricardo Castro",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "ricardo.castro@inovatech.com",
+        "projects": ["FraudShield"],
+        "knowledgeAreas": ["Vercel"],
         "leader": false,
         "responsibility": []
     },
@@ -15,7 +45,47 @@
         "departament": "Projetos",
         "email": "pedro.martins@inovatech.com",
         "projects": ["VitalAge"],
-        "knowledgeAreas": ["C#"],
+        "knowledgeAreas": ["C#", "Java", "Javascript"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Pedro Fernandes",
+        "role": "Contador",
+        "departament": "Financeiro",
+        "email": "pedro.fernandes@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Juliana Oliveira",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "juliana.oliveira@inovatech.com",
+        "projects": ["FraudShield"],
+        "knowledgeAreas": ["Heroku"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Bruna Oliveira",
+        "role": "Executivo de Vendas",
+        "departament": "Comercial",
+        "email": "bruna.oliveira@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Amanda Sousa",
+        "role": "QA",
+        "departament": "Projetos",
+        "email": "amanda.sousa@inovatech.com",
+        "projects": ["FraudShield"],
+        "knowledgeAreas": [],
         "leader": false,
         "responsibility": []
     },
@@ -30,12 +100,42 @@
         "responsibility": []
     },
     {
+        "name": "Thiago Santos",
+        "role": "QA",
+        "departament": "Projetos",
+        "email": "thiago.santos@inovatech.com",
+        "projects": ["FleetMaster"],
+        "knowledgeAreas": ["SOA"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
         "name": "Gabriel Oliveira",
         "role": "Designer",
         "departament": "Projetos",
         "email": "gabriel.oliveira@inovatech.com",
         "projects": ["EcoStyle"],
-        "knowledgeAreas": ["Design System", "Protótipos de altafidelidade"],
+        "knowledgeAreas": ["Design System", "Prototipos de altafidelidade"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Gabriel Neves",
+        "role": "QA",
+        "departament": "Projetos",
+        "email": "gabriel.neves@inovatech.com",
+        "projects": ["EcoStyle"],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Gabriela Torres",
+        "role": "Scrum Master",
+        "departament": "Projetos",
+        "email": "gabriela.torres@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
         "leader": false,
         "responsibility": []
     },
@@ -50,12 +150,72 @@
         "responsibility": []
     },
     {
+        "name": "Rafaela Lima",
+        "role": "Designer",
+        "departament": "Marketing",
+        "email": "rafaela.lima@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": ["site da empresa", "post da empresa em redes sociais"]
+    },
+    {
+        "name": "Gustavo Santos",
+        "role": "Copywriter",
+        "departament": "Marketing",
+        "email": "gustavo.santos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": ["textos publicitários", "textos em redes sociais", "textos de comunicação com o cliente"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Camila Oliveira",
+        "role": "Assistente Financeiro",
+        "departament": "Financeiro",
+        "email": "camila.oliveira@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Rafael Oliveira",
+        "role": "Scrum Master",
+        "departament": "Projetos",
+        "email": "rafael.oliveira@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
         "name": "Gustavo Fernandes",
         "role": "Designer",
         "departament": "Projetos",
         "email": "gustavo.fernandes@inovatech.com",
         "projects": ["FraudShield"],
         "knowledgeAreas": ["Personas"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Sofia Almeida",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "sofia.almeida@inovatech.com",
+        "projects": ["VitalAge"],
+        "knowledgeAreas": ["Oracle", "MongoDB"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Carolina Ferreira",
+        "role": "QA",
+        "departament": "Projetos",
+        "email": "carolina.ferreira@inovatech.com",
+        "projects": ["VitalAge"],
+        "knowledgeAreas": ["MVC", "Microsservicos"],
         "leader": false,
         "responsibility": []
     },
@@ -74,19 +234,69 @@
         "role": "Project Manager",
         "departament": "Projetos",
         "email": "marcelo.santos@inovatech.com",
-        "projects": [],
+        "projects": ["FraudShield", "RideShareNow"],
         "knowledgeAreas": [],
         "leader": true,
         "responsibility": []
     },
     {
+        "name": "Marcelo Lima",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "marcelo.lima@inovatech.com",
+        "projects": ["FleetMaster"],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
         "name": "Carla Mendes",
         "role": "Gerente e Social Media",
-        "departament": "MKT",
+        "departament": "Marketing",
         "email": "carla.mendes@inovatech.com",
         "projects": [],
+        "knowledgeAreas": ["textos em redes sociais"],
+        "leader": true,
+        "responsibility": ["site da empresa", "post da empresa em redes sociais", "estratégia de marketing"]
+    },
+    {
+        "name": "Karina Mendes",
+        "role": "Project Manager",
+        "departament": "Projetos",
+        "email": "karina.mendes@inovatech.com",
+        "projects": ["EcoStyle", "VitalAge", "FleetMaster"],
         "knowledgeAreas": [],
         "leader": true,
+        "responsibility": ["produto"]
+    },
+    {
+        "name": "Isabela Torres",
+        "role": "Designer",
+        "departament": "Projetos",
+        "email": "isabela.torres@inovatech.com",
+        "projects": ["FleetMaster"],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Marina Oliveira",
+        "role": "Especialista em Recrutamento e Seleção",
+        "departament": "RH",
+        "email": "marina.oliveira@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Mariana Santos",
+        "role": "Secretária Executiva",
+        "departament": "Administrativo",
+        "email": "mariana.santos@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
         "responsibility": []
     },
     {
@@ -97,6 +307,26 @@
         "projects": [],
         "knowledgeAreas": [],
         "leader": true,
+        "responsibility": []
+    },
+    {
+        "name": "André Serra",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "andre.serra@inovatech.com",
+        "projects": ["RideShareNow"],
+        "knowledgeAreas": ["Java", "C#", "Javascript"],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Maria Fernanda Costa",
+        "role": "Desenvolvedor",
+        "departament": "Projetos",
+        "email": "mariafernanda.costa@inovatech.com",
+        "projects": ["RideShareNow"],
+        "knowledgeAreas": ["Github"],
+        "leader": false,
         "responsibility": []
     },
     {
@@ -112,7 +342,7 @@
     {
         "name": "Eduardo Rodrigues",
         "role": "Coordenador Administrativo",
-        "departament": "ADM",
+        "departament": "Administrativo",
         "email": "eduardo.rodrigues@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -120,9 +350,49 @@
         "responsibility": []
     },
     {
+        "name": "Renata Lima",
+        "role": "Assistente administrativo",
+        "departament": "Administrativo",
+        "email": "renata.lima@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Guilherme Almeida",
+        "role": "QA",
+        "departament": "Projetos",
+        "email": "guilherme.almeida@inovatech.com",
+        "projects": ["RideShareNow"],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Daniel Oliveira",
+        "role": "Analista de Compras",
+        "departament": "Administrativo",
+        "email": "daniel.oliveira@inovatech.com",
+        "projects": [],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": []
+    },
+    {
+        "name": "Luiza Mendes",
+        "role": "Designer",
+        "departament": "Projetos",
+        "email": "luiza.mendes@inovatech.com",
+        "projects": ["RideShareNow"],
+        "knowledgeAreas": [],
+        "leader": false,
+        "responsibility": ["produto"]
+    },
+    {
         "name": "Rodrigo Mendes",
         "role": "Gerente Comercial",
-        "departament": "ADM",
+        "departament": "Comercial",
         "email": "rodrigo.mendes@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
