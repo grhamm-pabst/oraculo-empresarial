@@ -2,7 +2,7 @@
     {
         "name": "Lucas Santos",
         "role": "Desenvolvedor",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "lucas@email.com",
         "projects": ["EcoStyle"],
         "knowledgeAreas": ["Java"],
@@ -12,7 +12,7 @@
     {
         "name": "Pedro Martins",
         "role": "Desenvolvedor",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "pedro.martins@inovatech.com",
         "projects": ["VitalAge"],
         "knowledgeAreas": ["C#"],
@@ -22,7 +22,7 @@
     {
         "name": "Beatriz Rodrigues",
         "role": "Desenvolvedor",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "beatriz.rodrigues@inovatech.com",
         "projects": ["FleetMaster"],
         "knowledgeAreas": ["JS"],
@@ -32,7 +32,7 @@
     {
         "name": "Gabriel Oliveira",
         "role": "Designer",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "gabriel.oliveira@inovatech.com",
         "projects": ["EcoStyle"],
         "knowledgeAreas": ["Design System", "Protótipos de altafidelidade"],
@@ -42,7 +42,7 @@
     {
         "name": "Rafael Gonçalves",
         "role": "Designer",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "rafael.goncalves@inovatech.com",
         "projects": ["VitalAge"],
         "knowledgeAreas": ["Testes de usabilidade"],
@@ -52,7 +52,7 @@
     {
         "name": "Gustavo Fernandes",
         "role": "Designer",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "gustavo.fernandes@inovatech.com",
         "projects": ["FraudShield"],
         "knowledgeAreas": ["Personas"],
@@ -62,7 +62,7 @@
     {
         "name": "Gean Carlos",
         "role": "Project Manager",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "gean.carlos@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -72,7 +72,7 @@
     {
         "name": "Marcelo Santos",
         "role": "Project Manager",
-        "departament": "Projetos",
+        "department": "Projetos",
         "email": "marcelo.santos@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -82,7 +82,7 @@
     {
         "name": "Carla Mendes",
         "role": "Gerente e Social Media",
-        "departament": "MKT",
+        "department": "MKT",
         "email": "carla.mendes@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -92,7 +92,7 @@
     {
         "name": "André Santos",
         "role": "Analista de Desenvolvimento de Pessoas",
-        "departament": "RH",
+        "department": "RH",
         "email": "andre.santos@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -102,7 +102,7 @@
     {
         "name": "Felipe Silva",
         "role": "Gerente Financeiro",
-        "departament": "Financeiro",
+        "department": "Financeiro",
         "email": "felipe.silva@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -112,7 +112,7 @@
     {
         "name": "Eduardo Rodrigues",
         "role": "Coordenador Administrativo",
-        "departament": "ADM",
+        "department": "ADM",
         "email": "eduardo.rodrigues@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -122,7 +122,7 @@
     {
         "name": "Rodrigo Mendes",
         "role": "Gerente Comercial",
-        "departament": "ADM",
+        "department": "ADM",
         "email": "rodrigo.mendes@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],
@@ -132,7 +132,7 @@
     {
         "name": "Laura Santos",
         "role": "Analista Financeiro",
-        "departament": "Financeiro",
+        "department": "Financeiro",
         "email": "laura.santos@inovatech.com",
         "projects": [],
         "knowledgeAreas": [],

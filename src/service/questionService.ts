@@ -11,7 +11,7 @@ export class QuestionService{
     }
 
     static getAnwser(category : QuestionCategoryEnum, selectedOption: string) : User[]{
-        var users : User[] = []
+        var users : User[] = this.transformUserData()
         var result : User[] = [];
 
         switch (category) {
@@ -35,6 +35,27 @@ export class QuestionService{
           }
 
           return result
+    }
+
+    static transformUserData(): User[] {
+      const transformedUsers: User[] = [];
+  
+      usersData.forEach((userData: any) => {
+        const user: User = {
+          name: userData.name,
+          role: userData.role,
+          department: userData.department,
+          email: userData.email,
+          projects: userData.projects,
+          knowledgeAreas: userData.knowledgeAreas,
+          leader: userData.leader,
+          responsibility: userData.responsibility,
+        };
+  
+        transformedUsers.push(user);
+      });
+  
+      return transformedUsers;
     }
 
     static transformQuestionsData(): Question[] {
