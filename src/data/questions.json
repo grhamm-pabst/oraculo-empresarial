@@ -89,13 +89,13 @@
       "options": [
           {
              "id":"13",
-             "descriprion": "do setor...",
+             "description": "do setor...",
              "category": "DEPARTMENT",
              "alternatives": ["Projetos", "Marketing", "RH", "Financeiro", "Administrativo", "Comercial"]
           },
           {
               "id":"14",
-              "descriprion": "do projeto...",
+              "description": "do projeto...",
               "category": "PROJECT",
               "alternatives": ["EcoStyle", "VitalAge", "FleetMaster", "FraudShield", "RideShareNow"]
            }
@@ -109,19 +109,19 @@
               "id": "15",
               "descriprion": "aprovação de...",
               "category": "RESPONSIBILITY",
-              "options": ["produto", "feature", "codigo", "site da empresa", "post da empresa em redes sociais", "estratégia de marketing"]
+              "alternatives": ["produto", "feature", "codigo", "site da empresa", "post da empresa em redes sociais", "estratégia de marketing"]
           },
           {
               "id": "16",
               "descriprion": "solicitar compra de...",
               "category": "RESPONSIBILITY",
-              "options": ["material", "ferramenta de software", "domínio e hospedagem", "cursos e livros"]
+              "alternatives": ["material", "ferramenta de software", "domínio e hospedagem", "cursos e livros"]
           },
           {
               "id": "17",
               "descriprion": "solicitar uma alteração em...",
               "category": "RESPONSIBILITY",
-              "options": ["produto", "feature", "codigo", "site da emrpresa", "post da empresa em redes sociais", "estratégia de marketing"]
+              "alternatives": ["produto", "feature", "codigo", "site da emrpresa", "post da empresa em redes sociais", "estratégia de marketing"]
           }
       ] 
   }
