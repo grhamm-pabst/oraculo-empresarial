@@ -107,19 +107,19 @@
       "options": [
           {
               "id": "15",
-              "descriprion": "aprovação de...",
+              "description": "aprovação de...",
               "category": "RESPONSIBILITY",
               "alternatives": ["produto", "feature", "codigo", "site da empresa", "post da empresa em redes sociais", "estratégia de marketing"]
           },
           {
               "id": "16",
-              "descriprion": "solicitar compra de...",
+              "description": "solicitar compra de...",
               "category": "RESPONSIBILITY",
               "alternatives": ["material", "ferramenta de software", "domínio e hospedagem", "cursos e livros"]
           },
           {
               "id": "17",
-              "descriprion": "solicitar uma alteração em...",
+              "description": "solicitar uma alteração em...",
               "category": "RESPONSIBILITY",
               "alternatives": ["produto", "feature", "codigo", "site da emrpresa", "post da empresa em redes sociais", "estratégia de marketing"]
           }
