@@ -65,7 +65,6 @@
   padding: 0em 24px 0.5em 24px;
   margin: 1em;
   width: 20em;
-  height: 30em;
   background: #F3F3F3;
   border: 2px solid #ADB5BD;
   box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.25);
@@ -106,6 +105,7 @@ body {
   align-items: center;
   padding: 0px 10px 0px 10px;
   gap: 4px;
+  margin-right: 0.2em;
 }
 
 .question-box {
@@ -128,16 +128,134 @@ body {
   line-height: 24px;
 
   color: #F4F4F4;
+
+  cursor: pointer;
+
+  transition: ease-out 0.2s;
 }
 
-#question-1 {
+.question-box:active {
+  transform: scale(0.9);
+  transition: ease-out 0.2s;
+}
+
+#question-box-1 {
   background-color: #7798AB;
 }
 
-#question-2 {
+#question-box-1:hover {
+  background-color: #5393b6;
+}
+
+#question-box-2 {
   background-color: #b84a51;
 }
 
-#question-3 {
+#question-box-2:hover {
+  background-color: #d32b37;
+}
+
+#question-box-3 {
   background-color: #522f55;
+}
+
+#question-box-3:hover {
+  background-color: #852a8d;
+}
+
+input[type="radio"]:checked + #question-box-1 {
+  background-color: #5393b6;
+}
+
+input[type="radio"]:checked + #question-box-2 {
+  background-color: #d32b37;
+}
+
+input[type="radio"]:checked + #question-box-3 {
+  background-color: #852a8d;
+}
+
+#opt-1 {
+  background-color: #5393b6;
+}
+
+#opt-2 {
+  background-color: #d32b37;
+}
+
+#opt-3 {
+  background-color: #852a8d;
+}
+
+#answer-container {
+  width: 100%;
+}
+
+.answer-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer-header button {
+  border: 1px solid #160F29;
+  border-radius: 4px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.answer-header button:hover {
+  background-color: #160F29;
+  color: #F3F3F3;
+  transition: ease-out 0.2s;
+}
+
+.answer-header button:active {
+  background-color: #160F29;
+  color: #F3F3F3;
+
+  transform: scale(0.9);
+  transition: ease-out 0.2s;
+}
+
+.answer-sector {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* 01 */
+
+  background: #160F29;
+  /* 01 */
+
+  border: 2px solid #160F29;
+  box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  height: 108px;
+
+  margin: 0px 5px 0px 5px;
+  padding: 2px 10px 2px 10px;
+}
+
+.user-card p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30%;
+  /* or 24px */
+
+  text-align: center;
+  letter-spacing: -0.019em;
+
+  color: #F3F3F3;
 }
