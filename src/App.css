@@ -242,7 +242,7 @@ input[type="radio"]:checked + #question-box-3 {
 
   height: 108px;
 
-  margin: 0px 5px 0px 5px;
+  margin: 0px 5px 10px 5px;
   padding: 2px 10px 2px 10px;
 }
 
